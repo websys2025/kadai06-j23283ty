@@ -1,3 +1,5 @@
+##e-statから景気指数の値を取得し表示する
+
 import requests
 import pandas as pd
 
