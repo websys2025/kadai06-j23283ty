@@ -1,5 +1,6 @@
-##e-statから景気指数の値を取得し表示する
-
+#e-statから景気指数の値を取得し表示する
+#エンドポイント:https://api.e-stat.go.jp/rest/3.0/app/json/getStatsData
+#"statsDataId":"0003446461"とすることで景気指数のデータを指定している
 import requests
 import pandas as pd
 
