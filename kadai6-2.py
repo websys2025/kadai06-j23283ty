@@ -1,5 +1,7 @@
-##alphavantageからIBMの日別の開始価格、最高値、最安値、終値、取引数を取得し、表示する。
-##一定回数実行するとapi制限がかかる
+#alphavantageからIBMの日別の開始価格、最高値、最安値、終値、取引数を取得し、表示する。
+#エンドポイント:https://www.alphavantage.co/query
+#paramsのsymbolを変更することで世界中の各社の株価、為替データの取得が可能
+#一定回数実行するとapi制限がかかる
 
 import requests
 import pandas as pd
